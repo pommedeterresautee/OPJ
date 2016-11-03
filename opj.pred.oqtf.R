@@ -117,6 +117,7 @@ dt.patterns <- data.table(
   supralegem_2000_ = stri_count(dt.decision$decision, fixed = "12 avril 2000"),
   supralegem_2006_ = stri_count(dt.decision$decision, fixed = "24 juillet 2006"),
   supralegem_1968_ = stri_count(dt.decision$decision, fixed = "27 décembre 1968"),
+  supralegem_dublin_ = stri_count(dt.decision$decision, fixed = "26 juin 2013"),  # Règlement (UE) n° 604/2013 du Parlement européen et du Conseil du 26 juin 2013
   
   # Réglements (fixed pour la vitesse)
   supralegem_l_761_1_ = stri_count(dt.decision$demande.enrichi, fixed = "l 761 1"), # ne doit pas voir l ensemble de la décision
